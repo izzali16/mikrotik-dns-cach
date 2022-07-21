@@ -1,0 +1,2 @@
+/system scheduler
+add interval=15m name=Dns-cach on-event="/ip dns cache flush" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive start-date=jul/10/2000 start-time=21:14:53
